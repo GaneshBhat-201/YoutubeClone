@@ -1,0 +1,12 @@
+.Container_ShowVideoGrid{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    background-color: black;
+}
+
+/* .vid_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */

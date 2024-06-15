@@ -1,0 +1,95 @@
+.comments_sub_form_comments {
+  display: flex;
+  width: 70%;
+}
+.comment_ibox {
+  width: 80%;
+  padding: 0.5%;
+  padding-left: 2%;
+  background-color: transparent;
+  border: 0;
+  color: wheat;
+  border-bottom: 2px solid grey;
+}
+.comment_add_btn_comments {
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-bottom: 2px solid rgb(64, 64, 64);
+  background-color: transparent;
+  color: aliceblue;
+  font-size: large;
+  width: 20%;
+}
+
+.comment_add_btn_comments:hover {
+  border: 2px solid rgba(64, 64, 64, 0.05);
+  border-bottom: 2px solid rgb(64, 64, 64);
+  background-color: rgba(240, 248, 255, 0.05);
+}
+
+.display_comment_container {
+  padding: 1rem;
+}
+
+/** display comment **/
+
+.comment_body {
+  color: rgb(197, 197, 197);
+  margin: 0;
+  margin-top: 0.5rem;
+}
+.usercommented {
+  color: rgb(50, 50, 50);
+  margin: 0;
+}
+.EditDel_DisplayCommendt {
+  padding: 0.2rem;
+  margin: 0;
+  margin-bottom: 0.8rem;
+  color: rgba(44, 85, 209, 0.696);
+  cursor: pointer;
+}
+
+  .EditDel_DisplayCommendt i {
+    padding: 0.2rem;
+  }
+
+  .cmtContainer{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    height: 3rem;
+  }
+
+  .cmtLogo{
+    border: 1px solid rgb(0, 0, 0);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(118, 24, 24);
+    margin-top: 1.3rem;
+  }
+
+  .cmtTime{
+    color: rgb(89, 81, 81);
+    margin-left: 4px;
+  }
+
+  .cmtBody{
+    margin-top: 0;
+    margin-left: 2.7rem;
+    margin-bottom: 0;
+  }
+
+  .EditDel_DisplayCommendt{
+    margin-left: 2.2rem;
+    margin-top: 0.5rem;    
+  }
+
+  #comment_ibox{
+    margin-left: 2.7rem;
+  }
