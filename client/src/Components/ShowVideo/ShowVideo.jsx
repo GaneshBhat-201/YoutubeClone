@@ -12,7 +12,7 @@ function ShowVideo({vid}) {
       <div className="vid">
         
           <div className='video'>
-            <video src={`https://youtubeclone4123.onrender.com/${vid.filePath}`}></video>
+            <img src={`https://youtubeclone4123.onrender.com/${vid.filePath}`}></img>
           </div>
         
         <div className="vid_desc">
